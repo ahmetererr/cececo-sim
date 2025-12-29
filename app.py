@@ -131,16 +131,41 @@ st.markdown("""
     .stTabs [data-baseweb="tab-list"] {
         background: rgba(20, 20, 40, 0.8);
         border-radius: 10px;
-        padding: 0.5rem;
+        padding: 1rem;
     }
     
     .stTabs [data-baseweb="tab"] {
         color: #b0b0b0;
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+        padding: 1rem 1.5rem !important;
     }
     
     .stTabs [aria-selected="true"] {
+        color: #667eea !important;
+        background: rgba(102, 126, 234, 0.2) !important;
+        font-size: 1.6rem !important;
+        font-weight: 700 !important;
+    }
+    
+    /* Footer */
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(15, 12, 41, 0.95);
+        padding: 1rem;
+        text-align: center;
+        border-top: 1px solid rgba(102, 126, 234, 0.3);
+        color: #b0b0b0;
+        font-size: 0.9rem;
+        z-index: 999;
+    }
+    
+    .footer strong {
         color: #667eea;
-        background: rgba(102, 126, 234, 0.2);
+        font-weight: 600;
     }
     
     /* Sidebar */
@@ -807,6 +832,15 @@ def main():
                 font=dict(color='#e0e0e0')
             )
             st.plotly_chart(fig, use_container_width=True)
+    
+    # Footer
+    st.markdown("""
+        <div style="margin-top: 5rem; padding: 2rem; text-align: center; border-top: 1px solid rgba(102, 126, 234, 0.3);">
+            <p style="color: #b0b0b0; font-size: 1rem; margin: 0;">
+                Developed by <strong style="color: #667eea; font-size: 1.1rem;">Ahmet Erer</strong>
+            </p>
+        </div>
+    """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
