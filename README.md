@@ -1,6 +1,7 @@
 # CECECO-SIM: Simulation & Integration Module
-[Mr Ahmet Erer.pdf](https://github.com/user-attachments/files/25673718/Mr.Ahmet.Erer.pdf)
+<img width="483" height="670" alt="Ekran Resmi 2026-03-02 09 06 33" src="https://github.com/user-attachments/assets/267f076a-be20-4a2f-b885-5a4e7f9e2bcc" />
 ## 🌍 Overview
+
 
 CECECO-SIM is a Multi-AI Agent architecture designed to facilitate cross-border knowledge transfer and project simulation for clean energy initiatives in the CECECO region (Azerbaijan, Turkey, Pakistan, Kazakhstan, Uzbekistan, Kyrgyzstan).
 
